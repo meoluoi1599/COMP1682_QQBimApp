@@ -1,9 +1,9 @@
 {
   "packagerPort": 19001,
-  "packagerPid": 9652,
-  "expoServerNgrokUrl": "https://92-x5y.anonymous.qqbimapp.exp.direct",
-  "packagerNgrokUrl": "https://packager.92-x5y.anonymous.qqbimapp.exp.direct",
-  "ngrokPid": 10248,
+  "packagerPid": 3132,
+  "expoServerNgrokUrl": "https://bq-dtw.anonymous.qqbimapp.exp.direct",
+  "packagerNgrokUrl": "https://packager.bq-dtw.anonymous.qqbimapp.exp.direct",
+  "ngrokPid": 1568,
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "webpackServerPort": 19006

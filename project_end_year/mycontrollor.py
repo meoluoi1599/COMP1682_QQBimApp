@@ -36,10 +36,10 @@ bcrypt = Bcrypt(app)
 jwt = JWTManager(app)
 
 
-FILE_DIRECTORY = "D:\QQBimApp\project_end_year\Images"
+FILE_DIRECTORY = "D:\COMP1682_QQBimApp\project_end_year\Images"
 if not os.path.exists(FILE_DIRECTORY):
    os.makedirs(FILE_DIRECTORY)
-app.config['UPLOAD_FOLDER'] = 'D:\QQBimApp\project_end_year\Images'
+app.config['UPLOAD_FOLDER'] = 'D:\COMP1682_QQBimApp\project_end_year\Images'
 
 import mymodel 
 from mymodel import database
