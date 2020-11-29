@@ -3,7 +3,11 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import  Ionicons  from 'react-native-vector-icons/Ionicons'; 
 import { MaterialCommunityIcons } from '@expo/vector-icons'; 
 
-import {ListStoryStack, HomeStackScreen, WriteStackScreen, SearchStackScreen,NotificationStackScreen} from '../NavigationScreen';
+import {
+  ListStoryStack, 
+  HomeStackScreen,
+  WriteStackScreen
+} from '../NavigationScreen';
 import { ChatStackScreen } from './ChatStackScreen';
 
 const Tabs = createBottomTabNavigator();

@@ -145,7 +145,7 @@ def signup():
     password = request.json.get('password')
     nick_name = request.json.get('nick_name')
     email = request.json.get('email')
-    avatar = 'http://192.168.1.6:19000/return_img/default_avatar.jpg'
+    avatar = 'http://192.168.0.101:19000/return_img/default_avatar.jpg'
     num_follower = 0
     num_following = 0
     pw = bcrypt.generate_password_hash(str(password))
